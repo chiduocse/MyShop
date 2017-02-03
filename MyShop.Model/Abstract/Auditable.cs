@@ -5,7 +5,7 @@ namespace MyShop.Model.Abstract
 {
     public abstract class Auditable : IAuditable
     {
-        public DateTime? CreateDate { set; get; }
+        public DateTime? CreatedDate { set; get; }
 
         [MaxLength(256)]
         public string CreateBy { set; get; }
