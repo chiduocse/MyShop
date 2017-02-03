@@ -4,7 +4,7 @@ namespace MyShop.Model.Abstract
 {
     public interface IAuditable
     {
-        DateTime? CreateDate { set; get; }
+        DateTime? CreatedDate { set; get; }
         string CreateBy { set; get; }
         DateTime? UpdatedDate { set; get; }
         string UpdatedBy { set; get; }
