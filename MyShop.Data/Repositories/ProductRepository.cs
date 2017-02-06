@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace MyShop.Data.Repositories
 {
-    public interface IProductRepository
+    public interface IProductRepository :IRepository<Product>
     {
         IEnumerable<Product> GetListProductByTag(string tagId, int page, int pageSize, out int totalRow);
     }
