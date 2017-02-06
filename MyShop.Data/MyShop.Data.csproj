@@ -64,6 +64,10 @@
     <Compile Include="Migrations\201702030353213_InitialDB1.Designer.cs">
       <DependentUpon>201702030353213_InitialDB1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201702060251529_UpdateProducts.cs" />
+    <Compile Include="Migrations\201702060251529_UpdateProducts.Designer.cs">
+      <DependentUpon>201702060251529_UpdateProducts.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyShopDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -103,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201702030353213_InitialDB1.resx">
       <DependentUpon>201702030353213_InitialDB1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702060251529_UpdateProducts.resx">
+      <DependentUpon>201702060251529_UpdateProducts.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
